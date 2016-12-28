@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Metadata;
+
+service MetaService {
+  rpc Do1 (MetadataRequest) returns (MetadataResponse) {}
+  rpc Do2 (MetadataRequest) returns (MetadataResponse) {}
+}
+
+message MetadataRequest {
+  string message = 1;
+}
+
+message MetadataResponse {
+  string message = 1;
+}
