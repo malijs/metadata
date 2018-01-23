@@ -1,5 +1,7 @@
 # mali-metadata
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/malijs/metadata.svg)](https://greenkeeper.io/)
+
 Mali metadata middleware
 
 [![npm version](https://img.shields.io/npm/v/mali-metadata.svg?style=flat-square)](https://www.npmjs.com/package/malie-metadata)
