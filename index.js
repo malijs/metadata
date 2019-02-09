@@ -1,7 +1,7 @@
 /**
  * Mali metadata middleware. If the call has metadata with the specified property the
  * specified type the middleware function is executed.
- * @module mali-metadata
+ * @module @malijs/metadata
  *
  * @param  {String} name The name of the metadata object property
  * @param  {Options} options
@@ -10,7 +10,7 @@
  * @param  {Function} fn The middleware function to execute
  *
  * @example
- * const metadata = require('mali-metadata')
+ * const metadata = require('@malijs/metadata')
  *
  * async function requestId (requestId, ctx, next) {
  *   ctx.req.requestId = requestId
